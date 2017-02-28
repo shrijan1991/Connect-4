@@ -1,0 +1,61 @@
+.box {
+  width: 80px;
+  height: 80px;
+}
+
+.innnerbox {
+  border: 1px dotted black;
+}
+
+.circle {
+  position:absolute;
+  background: navy;
+}
+
+.choosePlayerScreen {
+  padding: 10px;
+}
+
+.welcomeTitle {
+  font-size: 32px;
+}
+
+.clip-circle {
+  clip-path: circle(60px at center);
+}
+
+@keyframes discDrop0 {
+  0% { transform: translate(0px, -120px) }
+  100% { }
+}
+@keyframes discDrop1 {
+  0% { transform: translate(0px, -240px) }
+  100% { }
+}
+@keyframes discDrop2 {
+  0% { transform: translate(0px, -360px) }
+  100% { }
+}
+@keyframes discDrop3 {
+  0% { transform: translate(0px, -480px) }
+  100% { }
+}
+@keyframes discDrop4 {
+  0% { transform: translate(0px, -600px) }
+  100% { }
+}
+@keyframes discDrop5 {
+  0% { transform: translate(0px, -720px) }
+  100% { }
+}
+
+
+@keyframes blinker {
+  0% { opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
